@@ -251,6 +251,21 @@
                         "left_control": "left_option",
                         "left_option": "left_control"
                     }
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": {},
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 308,
+                        "vendor_id": 2131
+                    },
+                    "ignore": false,
+                    "simple_modifications": {
+                        "left_command": "left_option",
+                        "left_option": "left_command"
+                    }
                 }
             ],
             "fn_function_keys": {
@@ -269,6 +284,7 @@
             },
             "name": "internal",
             "selected": true,
+            "simple_modifications": {},
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "keyboard_type": "ansi"
